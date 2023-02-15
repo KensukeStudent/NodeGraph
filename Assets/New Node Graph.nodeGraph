@@ -1,0 +1,124 @@
+{
+    "GraphPath": "Assets/New Node Graph.nodeGraph",
+    "objectId": "eeb63353-550b-473a-98f3-6f5e59c7f774",
+    "NodeDataList": [
+        {
+            "ObjectId": "cbf226d9-080d-47e0-bad7-6cd46db4db15",
+            "NodeClassName": "NodeGraph.LogNode",
+            "DrawState": {
+                "m_Position": {
+                    "serializedVersion": "2",
+                    "x": 472.0,
+                    "y": 158.5,
+                    "width": 68.0,
+                    "height": 77.0
+                }
+            },
+            "InputPortList": [
+                "a90f0af5-3cf7-4937-8b1f-d2e44240bace"
+            ],
+            "OutputPortList": [],
+            "PropertyInfo": {
+                "ClassName": "",
+                "PropertyId": ""
+            }
+        },
+        {
+            "ObjectId": "45c73bd7-f845-4c4c-9c6e-4650e57a970c",
+            "NodeClassName": "NodeGraph.LogNode",
+            "DrawState": {
+                "m_Position": {
+                    "serializedVersion": "2",
+                    "x": 472.0,
+                    "y": 295.0,
+                    "width": 68.0,
+                    "height": 77.0
+                }
+            },
+            "InputPortList": [
+                "59d60fb0-16d3-4f00-b6c2-a34f589adc36"
+            ],
+            "OutputPortList": [],
+            "PropertyInfo": {
+                "ClassName": "",
+                "PropertyId": ""
+            }
+        },
+        {
+            "ObjectId": "ab55fdd0-ed00-4be8-992a-43400f7d1f0c",
+            "NodeClassName": "NodeGraph.StringNode",
+            "DrawState": {
+                "m_Position": {
+                    "serializedVersion": "2",
+                    "x": 267.0,
+                    "y": 219.0,
+                    "width": 135.0,
+                    "height": 98.0
+                }
+            },
+            "InputPortList": [
+                "ae4d0f4c-6ba3-4ddd-9ab8-f338ee11a69e"
+            ],
+            "OutputPortList": [
+                "949b040c-f506-42bc-b5ab-4340376b037e"
+            ],
+            "PropertyInfo": {
+                "ClassName": "StringProperty",
+                "PropertyId": "5b03ee2e-2e48-4601-b787-741dfcc6924b"
+            }
+        }
+    ],
+    "PortDataList": [
+        {
+            "ObjectId": "a90f0af5-3cf7-4937-8b1f-d2e44240bace",
+            "NodeObjectId": "cbf226d9-080d-47e0-bad7-6cd46db4db15",
+            "PortIndex": 0,
+            "EdgeList": [
+                {
+                    "NodeObjectId": "ab55fdd0-ed00-4be8-992a-43400f7d1f0c",
+                    "PortObjectId": "949b040c-f506-42bc-b5ab-4340376b037e"
+                }
+            ]
+        },
+        {
+            "ObjectId": "59d60fb0-16d3-4f00-b6c2-a34f589adc36",
+            "NodeObjectId": "45c73bd7-f845-4c4c-9c6e-4650e57a970c",
+            "PortIndex": 0,
+            "EdgeList": [
+                {
+                    "NodeObjectId": "ab55fdd0-ed00-4be8-992a-43400f7d1f0c",
+                    "PortObjectId": "949b040c-f506-42bc-b5ab-4340376b037e"
+                }
+            ]
+        },
+        {
+            "ObjectId": "949b040c-f506-42bc-b5ab-4340376b037e",
+            "NodeObjectId": "ab55fdd0-ed00-4be8-992a-43400f7d1f0c",
+            "PortIndex": 0,
+            "EdgeList": [
+                {
+                    "NodeObjectId": "cbf226d9-080d-47e0-bad7-6cd46db4db15",
+                    "PortObjectId": "a90f0af5-3cf7-4937-8b1f-d2e44240bace"
+                },
+                {
+                    "NodeObjectId": "45c73bd7-f845-4c4c-9c6e-4650e57a970c",
+                    "PortObjectId": "59d60fb0-16d3-4f00-b6c2-a34f589adc36"
+                }
+            ]
+        },
+        {
+            "ObjectId": "ae4d0f4c-6ba3-4ddd-9ab8-f338ee11a69e",
+            "NodeObjectId": "ab55fdd0-ed00-4be8-992a-43400f7d1f0c",
+            "PortIndex": 0,
+            "EdgeList": []
+        }
+    ],
+    "PropertyManager": {
+        "StringPropertyList": [
+            {
+                "ObjectId": "5b03ee2e-2e48-4601-b787-741dfcc6924b",
+                "Text": "テスト"
+            }
+        ]
+    }
+}
