@@ -86,7 +86,7 @@ namespace NodeGraph
             var graphView = new NodeGraphView(this, currentData);
             rootVisualElement.Add(graphView);
 
-            var button = new Button(() => SaveAsset(graphView)) { text = "実行" };
+            var button = new Button(() => SaveAsset(graphView)) { text = "データ保存" };
             rootVisualElement.Add(button);
             Repaint();
         }
